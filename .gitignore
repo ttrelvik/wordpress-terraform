@@ -1,0 +1,9 @@
+# Ignore local Terraform directories and files
+/.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfplan
+crash.log
+
+# Ignore variable files containing secrets
+*.tfvars
